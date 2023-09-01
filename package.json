@@ -1,0 +1,9 @@
+{
+  "name": "yau-tutor",
+  "version": "1.0.0",
+  "description": "Yau-tutor app",
+  "main": "index.js",
+  "repository": "https://github.com/louiskwt/yau-tutor.git",
+  "author": "Louis Tsang <kawingt2@gmail.com>",
+  "license": "MIT"
+}
