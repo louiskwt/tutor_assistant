@@ -1,12 +1,11 @@
-# Yau Tutor 
+# Yo Tutor
 
 - The next gen tutoring service
 
 ## Problem to solve
 
-1. Ineffective middle man (Agent) 
+1. Ineffective middle man (Agent)
 2. Lack of interactions and understanding between tutor and students
-
 
 ## Target
 
@@ -23,16 +22,12 @@
 
 ## Research
 
-
-
-
 ## Bugs
 
-
-
 ## Roadmap
+
 ...TBD
 
-
 ## How to Contribute
+
 ... Coming soon
