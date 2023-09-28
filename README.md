@@ -27,7 +27,3 @@
 ## Roadmap
 
 ...TBD
-
-## How to Contribute
-
-... Coming soon
