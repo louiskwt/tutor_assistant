@@ -20,5 +20,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Yo-tutor Server running on port 8000");
+  console.log("Classify Server running on port 8000");
 });
