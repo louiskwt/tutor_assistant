@@ -1,14 +1,22 @@
 const express = require("express");
+const {engine} = require("express-handlebars");
+
 const app = express();
 const port = 8000;
 const path = require("path");
 
-app.set("view engine", "ejs");
-app.use(express.static("public"));
-app.use(express.static("node_modules"));
+app.engine(
+  "handlebars",
+  engine({
+    defaultLayout: "main",
+  })
+);
+
+app.set("view engine", "handlebars");
+app.set("views", path.join(__dirname, "views"));
 
 app.get("/", (req, res) => {
-  res.render(path.join(__dirname, "views", "index"));
+  res.render("landingpage");
 });
 
 app.listen(port, () => {
