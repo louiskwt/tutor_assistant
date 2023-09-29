@@ -1,11 +1,11 @@
-# Yo Tutor
+# Classify (tentative)
 
-- The next gen tutoring service
+- Student engatement and management tool for tutors
 
 ## Problem to solve
 
-1. Ineffective middle man (Agent)
-2. Lack of interactions and understanding between tutor and students
+1. Ineffective middle man (Agent) - Lead generation
+2. Lack of interactions and understanding between tutor and students - student management and engagement
 
 ## Target
 
