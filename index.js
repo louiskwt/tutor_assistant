@@ -1,6 +1,7 @@
 const express = require("express");
 const {engine} = require("express-handlebars");
 const keywords = require("./lib/keywords.js");
+const handlers = require("./lib/handlers.js");
 
 const app = express();
 const port = 8000;
@@ -20,9 +21,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
 // Routes
-app.get("/", (req, res) => {
-  res.render("landingpage");
-});
+app.get("/", handlers.landingPage);
 
 app.listen(port, () => {
   console.log("Classify Server running on port 8000");
