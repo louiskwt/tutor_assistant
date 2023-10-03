@@ -1,9 +1,12 @@
 const express = require("express");
 const {engine} = require("express-handlebars");
+const keywords = require("./lib/keywords.js");
 
 const app = express();
 const port = 8000;
 const path = require("path");
+
+app.locals.keywords = keywords.join(",");
 
 app.engine(
   "handlebars",
