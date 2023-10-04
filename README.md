@@ -1,6 +1,6 @@
 # Classify (tentative)
 
-- Student engatement and management tool for tutors
+- Student engatement and management tool for teachers and tutors
 
 ## Problem to solve
 
