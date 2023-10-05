@@ -4,13 +4,7 @@
 
 ## Problem to solve
 
-1. Ineffective middle man (Agent) - Lead generation
-2. Lack of interactions and understanding between tutor and students - student management and engagement
-
 ## Target
-
-1. Replace ineffective middle man
-2. Allow students to interact with tutors directly, and vice versa
 
 ## Priortised Tasks
 
