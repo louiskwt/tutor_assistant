@@ -1,0 +1,17 @@
+:root {
+  --offcanvas-width: 240px;
+  --top-navbar-height: 56px;
+}
+
+.sidebar-nav {
+  width: var(--offcanvas-width) !important;
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav {
+    transform: none !important;
+    visibility: visible !important;
+    top: var(--top-navbar-height) !important;
+    height: calc(100% - var(--top-navbar-height));
+  }
+}
