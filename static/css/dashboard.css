@@ -1,5 +1,5 @@
 :root {
-  --offcanvas-width: 240px;
+  --offcanvas-width: 260px;
   --top-navbar-height: 56px;
 }
 
@@ -7,7 +7,11 @@
   width: var(--offcanvas-width) !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 968px) {
+  .offcanvas-backdrop {
+    display: none !important;
+  }
+
   .sidebar-nav {
     transform: none !important;
     visibility: visible !important;
