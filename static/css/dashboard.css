@@ -21,6 +21,10 @@
     display: none !important;
   }
 
+  main {
+    margin-left: var(--offcanvas-width) !important;
+  }
+
   .sidebar-nav {
     transform: none !important;
     visibility: visible !important;
