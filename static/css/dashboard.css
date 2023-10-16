@@ -7,6 +7,10 @@
   width: var(--offcanvas-width) !important;
 }
 
+.sidebar-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.85) !important;
+}
+
 @media (min-width: 968px) {
   .offcanvas-backdrop {
     display: none !important;
