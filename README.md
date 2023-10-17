@@ -1,6 +1,6 @@
-# Classify (tentative)
+# Tutor Assistant
 
-- Student engatement and management tool for teachers and tutors
+- Are you a tutor looking for a convenient and efficient way to manage your students' profiles, schedules, and invoices? Tutor Assistant is here to revolutionize your tutoring experience.
 
 ## Problem to solve
 
